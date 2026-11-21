@@ -1,0 +1,17 @@
+name: UdsmpMobFix
+version: 1.0.0
+main: com.example.udsmpmobfix.UdsmpMobFix
+api-version: '1.21'
+depend:
+  - UltimateDonutSmp
+folia-supported: true
+description: Makes UltimateDonutSmp's "Disable Mob Spawns" setting block spawns near ANY player who has it on.
+commands:
+  mobfixcheck:
+    description: Show how the fix reads your Disable Mob Spawns / Phantom settings
+    usage: /mobfixcheck
+    permission: udsmpmobfix.admin
+permissions:
+  udsmpmobfix.admin:
+    description: Use /mobfixcheck
+    default: op
